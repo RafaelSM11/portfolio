@@ -265,3 +265,30 @@ section {
         width: 90%;
     }
 }
+
+/* FORÇAR ESCONDER O MENU NO CELULAR */
+@media (max-width: 768px) {
+
+    .menu {
+        display: none !important; /* esconde sempre no mobile */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 60%;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(10px);
+        align-items: center;
+        padding: 20px 0;
+        border-left: 2px solid var(--primary);
+        z-index: 10;
+    }
+
+    .menu.open {
+        display: flex !important; /* mostra somente quando clicado */
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+}
