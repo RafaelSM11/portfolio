@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --bg: #0a0f1f;
+    --primary: #08f7fe;
+    --text: #e0e7ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    color: var(--text);
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--text);
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--primary);
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    font-family: 'Orbitron';
+}
+
+.hero span {
+    color: var(--primary);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: var(--primary);
+    color: var(--bg);
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--primary);
+    margin: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--primary);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px var(--primary);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Certificados */
+.certificados {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cert-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cert-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--primary);
+    width: 320px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 12px var(--primary);
+}
+
+.cert-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.cert-card a:hover {
+    text-decoration: underline;
+}
