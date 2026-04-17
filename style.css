@@ -281,13 +281,14 @@ section {
     color: var(--text); 
     text-decoration: underline; 
 }
-.contato ul {
-    list-style: none; /* Remove as bolinhas */
-    padding: 0; /* Remove o recuo para a direita */
+.contato ul, .contato li {
+    list-style: none !important; /* O !important força o navegador a obedecer */
+    padding: 0;
+    margin: 0;
 }
 
 .contato li {
-    margin-bottom: 10px; /* Dá um respiro entre um link e outro */
+    margin-bottom: 10px; /* Mantém o respiro entre os links */
 }
 
 
