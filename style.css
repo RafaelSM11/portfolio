@@ -281,6 +281,14 @@ section {
     color: var(--text); 
     text-decoration: underline; 
 }
+.contato ul {
+    list-style: none; /* Remove as bolinhas */
+    padding: 0; /* Remove o recuo para a direita */
+}
+
+.contato li {
+    margin-bottom: 10px; /* Dá um respiro entre um link e outro */
+}
 
 
 
