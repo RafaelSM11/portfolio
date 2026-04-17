@@ -270,6 +270,18 @@ section {
         width: 90%;
     }
 }
+/* ===== CONTATO ===== */
+#contato a {
+    color: var(--primary);
+    text-decoration: none; /* Tira o sublinhado padrão */
+    transition: 0.3s;
+}
+
+#contato a:hover {
+    color: var(--text); /* Fica branco quando passar o mouse por cima */
+    text-decoration: underline; /* Coloca um sublinhado charmoso no hover */
+}
+
 
 /* ===== FOOTER ===== */
 footer {
