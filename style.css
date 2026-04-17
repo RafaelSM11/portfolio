@@ -273,14 +273,15 @@ section {
 /* ===== CONTATO ===== */
 .contato a {
     color: var(--primary);
-    text-decoration: none; /* Tira o sublinhado padrão */
+    text-decoration: none; 
     transition: 0.3s;
 }
 
 .contato a:hover {
-    color: var(--text); /* Fica branco quando passar o mouse por cima */
-    text-decoration: underline; /* Coloca um sublinhado charmoso no hover */
+    color: var(--text); 
+    text-decoration: underline; 
 }
+
 
 
 /* ===== FOOTER ===== */
